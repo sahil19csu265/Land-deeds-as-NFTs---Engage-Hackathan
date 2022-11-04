@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Create Will</title>
+    <link rel="stylesheet" href="../../assets/style/forms.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="../../scripts/will.mjs" type="module" defer></script>
+</head>
+    <body>
+        <div id="navbar" class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <img src="../../assets/images/Department-of-Land-Resources-780x470-removebg-preview.png" style="width: 300px" />
+                </div>
+                <div class="col-sm-4">
+                    &nbsp;&nbsp;&nbsp;&nbsp;<img src="../../assets/images/download__1_-removebg-preview.png" style="width: 300px" />
+                </div>
+            </div>
+            <div id="alert-box" role="alert" style="display: none; height: 100px; width: 600px;">
+                <h5 id="alert-message" class="text-center"></h5>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Documents</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Act, Rules & policies</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Programmes
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div>
+                    <div class="center">
+                        <h1>Create New Will</h1>
+                        <div id="form">
+
+                            <div class="txt_field">
+                                <input id="tokenID" type="text" required>
+                                <span></span>
+                                <label>Property ID</label>
+                            </div>
+                            <div class="">
+
+                                <label style="color:  #adadad;" class="form-label">Will Text</label>
+                                <textarea class="form-control" id="willText" rows="3"></textarea>
+
+                            </div>
+                            &nbsp;&nbsp;
+                            <input type="submit"  value="Submit" id="will-submit-btn" >
+                            &nbsp;&nbsp;
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div class="container">
+                    <div id="alert-box" role="alert" style="display: none; height: 100px; width: 600px;">
+                        <h5 id="alert-message" class="text-center"></h5>
+                    </div>  
+                </div>
+
+    </body>
+
+</html>

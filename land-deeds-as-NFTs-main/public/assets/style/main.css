@@ -1,0 +1,31 @@
+root {
+    --text-color : #707070;
+    --primary-color : #fdb03d;
+    --bg-color : #292560;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    margin: 10px;
+}
